@@ -4,7 +4,7 @@
   "description": "Comlink endpoints for communicating between Figma plugin threads",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "typings": "dist/types/index.d.ts",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
