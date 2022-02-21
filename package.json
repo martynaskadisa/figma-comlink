@@ -1,0 +1,39 @@
+{
+  "name": "figma-comlink",
+  "version": "0.0.0",
+  "description": "Comlink endpoints for communicating between Figma plugin threads",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "figma",
+    "comlink",
+    "endpoint"
+  ],
+  "license": "MIT",
+  "private": false,
+  "author": "Martynas Kadiša <8273932+martynaskadisa@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martynaskadisa/figma-comlink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martynaskadisa/figma-comlink/issues"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.42.1",
+    "comlink": "^4.3.1",
+    "tsup": "^5.11.13",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "comlink": "^4.3.1"
+  }
+}
